@@ -35,7 +35,7 @@ const renderReplies = replyData => (
 )
 
 const Post = ({
-  name, content, depth, postID,
+  name, content, depth,
 }) => {
   const [makeNewReview, setMakeNewReview] = useState(false)
   const [replies, addNewReply] = useState([])

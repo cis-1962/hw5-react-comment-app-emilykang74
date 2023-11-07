@@ -19,6 +19,6 @@
     "strictNullChecks": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "my-app/src/components", "index.js"],
+  "references": [{ "path": "./tsconfig.json" }]
 }
